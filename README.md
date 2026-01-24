@@ -29,7 +29,7 @@
 
 
 
-> [**TextMonkey: An OCR-Free Large Multimodal Model for Understanding Document**](https://arxiv.org/abs/2403.04473)<br>
+> [**[TPAMI 2026] TextMonkey: An OCR-Free Large Multimodal Model for Understanding Document**](https://arxiv.org/abs/2403.04473)<br>
 > Yuliang Liu, Biao Yang, Qiang Liu, Zhang Li, Zhiyin Ma, Shuo Zhang, Xiang Bai <br>
 [![arXiv](https://img.shields.io/badge/Arxiv-2403.04473-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2403.04473) 
 [![Source_code](https://img.shields.io/badge/Code-Available-white)](monkey_model/text_monkey/README.md)
@@ -71,12 +71,9 @@
 ## News 
 * ```2025.6.6 ``` 🚀 [MonkeyOCR](https://github.com/Yuliang-Liu/MonkeyOCR): Try our document parsing model — Accurate, Fast, and Easy to Use.
 * ```2025.4.17 ``` 🚀 [Liquid](https://arxiv.org/abs/2412.04332): Bridging Text‑to‑Image and Image‑to‑Text in One Framework.
-* ```2025.1.23 ``` 🚀 Mini-Monkey is accepted by ICLR 2025. 
-* ```2024.9.25 ``` 🚀 MoE Jetpack is accepted by NeurIPS 2024.
 * ```2024.8.6  ``` 🚀 We release the paper [Mini-Monkey](https://arxiv.org/abs/2408.02034).
 * ```2024.4.5  ``` 🚀 Monkey is nominated as CVPR 2024 Highlight paper.
 * ```2024.3.8  ``` 🚀 We release the paper [TextMonkey](https://arxiv.org/abs/2403.04473).
-* ```2024.2.27 ``` 🚀 Monkey is accepted by CVPR 2024. 
 * ```2024.1.3  ``` 🚀 Release the basic data generation pipeline. [Data Generation](./data_generation)
 * ```2023.11.06``` 🚀 We release the paper [Monkey](https://arxiv.org/abs/2311.06607).
 
@@ -231,23 +228,54 @@ If you wish to refer to the baseline results published here, please use the foll
   pages={26763--26773},
   year={2024}
 }
+@article{zhu2024moe,
+  title={Moe jetpack: From dense checkpoints to adaptive mixture of experts for vision tasks},
+  author={Zhu, Xingkui and Guan, Yiran and Liang, Dingkang and Chen, Yuchao and Liu, Yuliang and Bai, Xiang},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={12094--12118},
+  year={2024}
+}
 @article{liu2024textmonkey,
   title={TextMonkey: An OCR-Free Large Multimodal Model for Understanding Document},
   author={Liu, Yuliang and Yang, Biao and Liu, Qiang and Li, Zhang and Ma, Zhiyin and Zhang, Shuo and Bai, Xiang},
-  journal={arXiv preprint arXiv:2403.04473},
-  year={2024}
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  year={2026}
 }
 @article{huang2024mini,
   title={Mini-Monkey: Multi-Scale Adaptive Cropping for Multimodal Large Language Models},
   author={Huang, Mingxin and Liu, Yuliang and Liang, Dingkang and Jin, Lianwen and Bai, Xiang},
-  journal={arXiv preprint arXiv:2408.02034},
+  journal={International Conference on Learning Representations},
   year={2024}
 }
 @article{deng2024r,
   title={R-CoT: Reverse Chain-of-Thought Problem Generation for Geometric Reasoning in Large Multimodal Models},
   author={Deng, Linger and Liu, Yuliang and Li, Bohan and Luo, Dongliang and Wu, Liang and Zhang, Chengquan and Lyu, Pengyuan and Zhang, Ziyang and Zhang, Gang and Ding, Errui and others},
-  journal={arXiv preprint arXiv:2410.17885},
+  journal={Conference on Empirical Methods in Natural Language Processing},
   year={2024}
+}
+@article{wu2026liquid,
+  title={Liquid: Language models are scalable and unified multi-modal generators},
+  author={Wu, Junfeng and Jiang, Yi and Ma, Chuofan and Liu, Yuliang and Zhao, Hengshuang and Yuan, Zehuan and Bai, Song and Bai, Xiang},
+  journal={International Journal of Computer Vision},
+  volume={134},
+  number={1},
+  pages={39},
+  year={2026},
+  publisher={Springer}
+}
+@inproceedings{li2025lira,
+  title={LIRA: Inferring Segmentation in Large Multi-modal Models with Local Interleaved Region Assistance},
+  author={Li, Zhang and Yang, Biao and Liu, Qiang and Zhang, Shuo and Ma, Zhiyin and Yin, Liang and Deng, Linger and Sun, Yabo and Liu, Yuliang and Bai, Xiang},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={24056--24067},
+  year={2025}
+}
+@article{li2025monkeyocr,
+  title={MonkeyOCR: Document Parsing with a Structure-Recognition-Relation Triplet Paradigm},
+  author={Li, Zhang and Liu, Yuliang and Liu, Qiang and Ma, Zhiyin and Zhang, Ziyang and Zhang, Shuo and Guo, Zidun and Zhang, Jiarui and Wang, Xinyu and Bai, Xiang},
+  journal={arXiv preprint arXiv:2506.05218},
+  year={2025}
 }
 ```
 
@@ -258,5 +286,6 @@ The Monkey series is primarily focused on exploring techniques such as image res
 
 ## Copyright
 Monkey project is intended for non-commercial use only. For commercial inquiries or to explore more advanced versions of the Monkey series LMMs (<1b, 2b, 7b, 72b), please contact Prof. Yuliang Liu at ylliu@hust.edu.cn. 
+
 
 
