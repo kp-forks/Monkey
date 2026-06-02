@@ -1,7 +1,3 @@
-<p align="center">
-    <img src="https://v1.ax1x.com/2024/08/13/7GXwAh.png" width="500" style="margin-bottom: 0.2;"/>
-<p>
-
 <h3 align="center"> <a href="https://arxiv.org/abs/2311.06607">Monkey: Image Resolution and Text Label Are Important Things for Large Multi-modal Models</a></h3>
 <h2></h2>
 
